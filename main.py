@@ -13,11 +13,7 @@ ENV VARIABLES
   SECRET_KEY      long random string (production me zaroor set karo)
   ADMIN_EMAIL     first admin email   (default: admin@college.local)
   ADMIN_PASSWORD  first admin password (set nahi kiya to admin seed nahi hoga)
-  CORS_ORIGINS    comma separated origins (default: *)
-
-RUN
-  uvicorn main:app --reload
-  Docs: http://localhost:8000/docs
+  CORS_ORIGINS    comma separated origins 
 """
 import enum
 import io
